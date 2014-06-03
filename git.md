@@ -14,3 +14,9 @@
     
     # print log on one line with
     git log --pretty=oneline
+
+    # launch visual merge tool during merge
+    git mergetool
+    
+    # launch visual difftool
+    git diftool ref1 ref2
