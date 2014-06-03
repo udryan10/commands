@@ -9,7 +9,6 @@
     # 2. Cherry pick all needed commits
     # 3. commit
     
-    
     git checkout -b cherry-pick-branch
     git cherry-pick sha
     git commit -m ""
