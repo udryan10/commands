@@ -5,13 +5,11 @@
     git reset --hard origin/master
     
     # Cherry Picking commit from another branch
-    # 1. create cherry pick branch based on 
+    # 1. checkout branch that you want to cherry pick to
     # 2. Cherry pick all needed commits
-    # 3. commit
     
-    git checkout -b cherry-pick-branch
+    git checkout production
     git cherry-pick sha
-    git commit -m ""
     
     
     # print log on one line with
